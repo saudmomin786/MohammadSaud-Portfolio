@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Saud Momin</title>
+  <meta name="description" content="Detail-oriented data analyst skilled in Excel ,SQL and Power BI. Explore interactive dashboards, analytics projects, and Internship experience.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mohammad Saud Momin | Data Analyst Portfolio">
+  <meta property="og:description" content="Data analyst turning raw numbers into real business impact. View projects, dashboards, and experience.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/profile-avatar.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a href="#hero" class="nav__logo">Mohammad Saud Momin</a>
+
+      <ul class="nav__menu" id="navMenu" role="menubar">
+        <li role="none"><a href="#hero" class="nav__link active" role="menuitem">Home</a></li>
+        <li role="none"><a href="#about" class="nav__link" role="menuitem">About</a></li>
+        <li role="none"><a href="#services" class="nav__link" role="menuitem">Services</a></li>
+        <li role="none"><a href="#projects" class="nav__link" role="menuitem">Projects</a></li>
+        <li role="none"><a href="#experience" class="nav__link" role="menuitem">Experience</a></li>
+        <li role="none"><a href="#contact" class="nav__link" role="menuitem">Contact</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">🌙</button>
+        <a href="#contact" class="btn btn-primary nav__cta">Contact Me</a>
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav__overlay" id="navOverlay"></div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero section" id="hero">
+    <div class="container">
+      <div class="hero__content">
+        <p class="hero__greeting animate-on-scroll">Hey! I Am</p>
+        <h1 class="hero__name animate-on-scroll delay-1">Mohammad Saud Momin</h1>
+        <p class="hero__tagline animate-on-scroll delay-2">
+         Data Analyst turning raw numbers into real business impact. Skilled in Excel, SQL, and Power BI.</p>
+        <div class="hero__cta-group animate-on-scroll delay-3">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          <a href="#projects" class="btn btn-secondary">View Projects</a>
+        </div>
+
+        <div class="hero__trusted animate-on-scroll delay-4">
+          <p class="hero__trusted-label">Trusted By</p>
+          <div class="hero__logos">
+            <div class="hero__logo-item">🏦 Maple Financial</div>
+            <div class="hero__logo-item">🎓 UofT</div>
+            <div class="hero__logo-item">📊 Google Certified</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__photo-wrapper animate-on-scroll">
+          <div class="hero__photo-bg"></div>
+          <img src="assets/profile-avatar.png" alt="Mohammad Saud Momin headshot — data analyst based in Toronto" class="hero__photo">
+        </div>
+
+        <!-- Floating Cards -->
+        <div class="floating-card floating-card--1">
+          <span class="floating-card__icon">🐍</span>
+          Excel & SQL  
+        </div>
+        <div class="floating-card floating-card--2">
+          <span class="floating-card__icon">📈</span>
+         Advanced Excel Expert
+        </div>
+        <div class="floating-card floating-card--3">
+          <span class="floating-card__icon">🔢</span>
+          500K+ Records Analyzed
+        </div>
+
+        <!-- Decorative circles -->
+        <div class="hero__deco hero__deco--1"></div>
+        <div class="hero__deco hero__deco--2"></div>
+        <div class="hero__deco hero__deco--3"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT / STATS ===== -->
+  <section class="about section section--alt" id="about">
+    <div class="container">
+      <div class="about__stats">
+        <div class="stat-card animate-on-scroll">
+          <div class="stat-card__icon">📊</div>
+          <div class="stat-card__number" data-count="500">0</div>
+          <div class="stat-card__label">K+ Records Analyzed</div>
+        </div>
+        <div class="stat-card animate-on-scroll delay-1">
+          <div class="stat-card__icon">📉</div>
+          <div class="stat-card__number" data-count="4">0</div>
+          <div class="stat-card__label">Interactive Dashboards Built</div>
+        </div>
+        <div class="stat-card animate-on-scroll delay-2">
+          <div class="stat-card__icon">⚡</div>
+          <div class="stat-card__number" data-count="6">0</div>
+          <div class="stat-card__label">Months Internship Experience</div>
+        </div>
+        <div class="stat-card animate-on-scroll delay-3">
+          <div class="stat-card__icon">🎯</div>
+          <div class="stat-card__number" >6.35+</div>
+          <div class="stat-card__label">Aggregate CGPA</div>
+        </div>
+      </div>
+
+      <div class="about__content animate-on-scroll">
+        <h2>Turning Data Into <span>Decisions</span></h2>
+        <p>
+          I'm a detail-oriented aspiring Data Analyst with hands-on experience in building dashboards, analyzing datasets, and creating insightful reports using Excel, SQL, Power BI. My background in Computer Engineering helps me combine technical knowledge with analytical thinking to solve real-world business problems.</p>
+        
+        <p>During my internship and training journey with AccioJob, I worked on data analytics projects involving data cleaning, visualization,KPI reporting, and dashboard development. I also created sales and performance dashboards that helped present complex data in a simple and actionable way.</p>
+
+        <p> Whether it's writing SQL queries, creating interactive Power BI dashboards, preparing MIS reports, or analyzing data using Excel, I focus on converting raw and unstructured data into meaningful business insights. I am passionate about leveraging data-driven solutions and continuously enhancing my skills to build a successful career in Data Analytics and MIS Reporting.</p>
+
+        <div class="about__cta">
+          <a href="Mohamd_Saud_Momin_Resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">📄 Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES / WHAT I DO ===== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section__header animate-on-scroll">
+        <h2 class="section__title">What I <span>Do</span></h2>
+        <p class="section__subtitle">Core competencies I bring to every project and team.</p>
+      </div>
+
+      <div class="services__grid">
+        <div class="service-card animate-on-scroll">
+          <div class="service-card__icon">🔍</div>
+          <h3 class="service-card__title">Data Analysis</h3>
+          <div class="service-card__tools">
+            <span class="service-card__tool-tag">Excel</span>
+            <span class="service-card__tool-tag">SQL</span>
+          </div>
+          <p class="service-card__desc">Analyzing datasets to identify trends, patterns, and meaningful insights that support smarter business decisions and improve overall performance.</div>
+
+        <div class="service-card animate-on-scroll delay-1">
+          <div class="service-card__icon">📊</div>
+          <h3 class="service-card__title">Dashboard Development</h3>
+          <div class="service-card__tools">
+            <span class="service-card__tool-tag">Power BI</span>
+            <span class="service-card__tool-tag">Excel</span>
+          </div>
+          <p class="service-card__desc">Building interactive dashboards and KPI reports to simplify complex data and present information in a clear and visually effective way.</div>
+
+        <div class="service-card animate-on-scroll delay-2">
+          <div class="service-card__icon">⚙️</div>
+          <h3 class="service-card__title">Automation</h3>
+          <div class="service-card__tools">
+            <span class="service-card__tool-tag">Reporting  Excel & PowerBI</span>
+            <span class="service-card__tool-tag">Dashboards</span>
+          </div>
+          <p class="service-card__desc">Delivering streamlined reporting solutions and automated dashboards for faster, accurate, and insight-driven operations.</p>
+        </div>
+
+        <div class="service-card animate-on-scroll delay-3">
+          <div class="service-card__icon">🛢</div>
+          <h3 class="service-card__title">Data Management</h3>
+          <div class="service-card__tools">
+            <span class="service-card__tool-tag"> Data Cleaning</span>
+            <span class="service-card__tool-tag">Pivot Tables</span>
+            <span class="service-card__tool-tag">VLOOKUP</span>
+            <span class="service-card__tool-tag">HLOOKUP</span>
+          </div>
+          <p class="service-card__desc">Cleaning, organizing, and managing data using Excel functions and analytical techniques for accurate reporting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects section section--alt" id="projects">
+    <div class="container">
+      <div class="section__header animate-on-scroll">
+        <h2 class="section__title">Recent <span>Projects</span></h2>
+        <p class="section__subtitle">A selection of analytics projects that showcase my approach and technical range.</p>
+      </div>
+
+      <div class="projects__grid">
+        <!-- Project 1: E-Commerce Dashboard -->
+        <div class="project-card animate-on-scroll">
+          <div class="project-card__image-wrapper">
+            <img src="assets/project-ecommerce.png" alt="E-Commerce Sales Analytics Dashboard showing sales trends, cohort analysis, and retention curves" class="project-card__image">
+            <div class="project-card__overlay">
+              <!-- <span class="project-card__overlay-link">View Project →</span> -->
+            </div>
+          </div>
+          <div class="project-card__body">
+            <p class="project-card__type">EXCEL DASHBOARD · Project · 2025</p>
+            <h3 class="project-card__title">Sales Performance Analysis Using Excel</h3>
+            <p class="project-card__desc">Interactive Excel dashboard analyzing 1,000+ sales transactions across multiple regions and product categories.</p>
+            <div class="project-card__meta">
+              <div class="project-card__tools">
+                <span class="project-card__tool-tag">Excel</span>
+                <span class="project-card__tool-tag">Pivot Tables</span>
+                <span class="project-card__tool-tag">Charts</span>
+                <span class="project-card__tool-tag">Dashboarding</span>
+              </div>
+              <span class="project-card__metric">📈 Monitored ₹52.9L+ Sales with regional and product-wise performance analysis.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: HR Attrition -->
+        <div class="project-card animate-on-scroll delay-1">
+          <div class="project-card__image-wrapper">
+            <img src="assets/project-global.png" alt="Global Sales Analysis Dashboard with regional performance metrics and trend analysis" class="project-card__image">
+            <div class="project-card__overlay">
+              <!-- <span class="project-card__overlay-link">View Project →</span> -->
+            </div>
+          </div>
+          <div class="project-card__body">
+            <p class="project-card__type">Excel + Reporting · Project · 2025</p>
+            <h3 class="project-card__title">Global Sales Analysis</h3>
+            <p class="project-card__desc">An Excel-based analysis of global sales data, including regional performance metrics and trend analysis.</p>
+            <div class="project-card__meta">
+              <div class="project-card__tools">
+                <span class="project-card__tool-tag">Excel</span>
+                <span class="project-card__tool-tag">Pivot Tables</span>
+                <span class="project-card__tool-tag">Vlookups</span>
+                <span class="project-card__tool-tag">Hlookups</span>
+                <span class="project-card__tool-tag">Charts</span>
+                <span class="project-card__tool-tag">Data Cleaning</span>
+              </div>
+              <span class="project-card__metric">🚀 Provided data-driven insights on global sales, profit distribution, and product performance using Excel dashboards.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Student Engagement -->
+        <div class="project-card animate-on-scroll delay-2">
+          <div class="project-card__image-wrapper">
+            <img src="assets/project-blinkit.png" alt="Student Engagement Dashboard tracking program metrics across 12 campus programs" class="project-card__image">
+            <div class="project-card__overlay">
+              <!-- <span class="project-card__overlay-link">View Project →</span> -->
+            </div>
+          </div>
+          <div class="project-card__body"> 
+            <p class="project-card__type">Power BI · Personal Project · 2025</p>
+            <h3 class="project-card__title">Blinkit Grocery Analysis Dashboard - Power BI</h3>
+            <p class="project-card__desc">Designed an interactive Power BI dashboard to analyze Blinkit's grocery sales performance, customer preferences, and product trends. Utilized DAX calculations, data modeling, and dynamic filters to generate actionable business insights and improve decision-making.</p>
+            <div class="project-card__meta">
+              <div class="project-card__tools">
+                <span class="project-card__tool-tag">Power BI</span>
+                <span class="project-card__tool-tag">Excel</span>
+                <span class="project-card__tool-tag">DAX</span>
+              </div>
+              <span class="project-card__metric">🛒 Analyzed $1.20M sales across 8,500+ products using interactive Power BI dashboards.</span>
+            </div>
+            <!-- <a href="https://public.tableau.com/app/profile/epposite/viz/EPPO_Inter_OilPrice/SUMMARYOILPRICING" target="_blank" rel="noopener" class="btn btn-primary project-card__live-btn">📊 View Live Dashboard</a> -->
+          </div>
+        </div>
+
+        <!-- Project 4: Student Engagement -->
+        <div class="project-card animate-on-scroll delay-2">
+          <div class="project-card__image-wrapper">
+            <img src="assets/project-hospital.png" alt="Student Engagement Dashboard tracking program metrics across 12 campus programs" class="project-card__image">
+            <div class="project-card__overlay">
+              <!-- <span class="project-card__overlay-link">View Project →</span> -->
+            </div>
+          </div>
+           <div class="project-card__body">
+            <p class="project-card__type">HTML + PHP  · Final Year Project· <br> Academic Capstone · 2024</p>
+            <h3 class="project-card__title">Hospital Management System</h3>
+            <p class="project-card__desc">A web-based system for managing hospital operations, including patient records, appointment scheduling, and staff management.</p>
+            <div class="project-card__meta">
+              <div class="project-card__tools">
+                <span class="project-card__tool-tag">HTML</span>
+                <span class="project-card__tool-tag">CSS</span>
+                <span class="project-card__tool-tag">PHP</span>
+                <span class="project-card__tool-tag">MySQL</span>
+              </div>
+              <span class="project-card__metric">🏥 Developed a responsive healthcare website with service management and database integration.</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 5: Automated Reporting -->
+        <div class="project-card animate-on-scroll delay-3">
+          <div class="project-card__image-wrapper">
+            <img src="assets/project-photo.jpg" alt="Hospital Management System interface" class="project-card__image">
+            <div class="project-card__overlay">
+              <!-- <span class="project-card__overlay-link">View Project →</span> -->
+            </div>
+          </div>
+          <div class="project-card__body">
+            <p class="project-card__type">·Final Year Project· Academic Capstone · 2025</p>
+            <h3 class="project-card__title"> Photography Website Booking System (Final Year)</h3>
+            <p class="project-card__desc">Developed an Online Photography Booking System with modules for Admin, Users, and Photographers. Built the frontend using HTML, CSS, JavaScript, and React, and backend with Node.js, MongoDB, and Redis. Implemented features for booking management, photographer registration, and user dashboard. Designed a seamless and user-friendly interface to enhance the overall booking experience.</p>
+            <div class="project-card__meta"> 
+              <div class="project-card__tools">
+                <span class="project-card__tool-tag">HTML</span>
+                <span class="project-card__tool-tag">CSS</span>
+                <span class="project-card__tool-tag">PHP</span>
+                <span class="project-card__tool-tag">MySQL</span>
+              </div>
+              <span class="project-card__metric">🏥 Developed a responsive Photography website with service management and database integration.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section__header animate-on-scroll">
+        <h2 class="section__title">Exper<span>ience</span></h2>
+      </div>
+
+      <div class="experience__timeline">
+        <!-- Role 1 -->
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-item__dot"></div>
+          <div class="timeline-item__card">
+            <div class="timeline-item__header">
+              <div class="company-info">
+                <img src="assets/acciojob-logo-color.png" alt="A2Z IT Hub Logo" class="company-logo"></div>
+              <div>
+                <h3 class="timeline-item__role">Data Analyst Intern</h3>
+                <p class="timeline-item__company"> AccioJob Pvt Ltd , Pune </p>
+              </div>
+              <span class="timeline-item__date">Aug 2025 – Mar 2026</span>
+            </div>
+            <ul class="timeline-item__highlights">
+              <li>Analyzed structured datasets using Excel & Sql , identifying patterns that improved reporting accuracy
+                  and decision-making.</li>
+              <li>Designed & Developed interactive Power BI dashboards to track KPIs, enabling faster business
+insights.</li>
+              <li>Automated daily reporting workflows using Excel formulas and Power BI, reducing manual effort
+and improving efficiency.</li>
+              <li>Performed data cleaning and transformation, ensuring high-quality datasets for analysis.</li>
+              <li>Leveraged AI tools to enhance data workflows and improve productivity.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="timeline-item animate-on-scroll delay-1">
+          <div class="timeline-item__dot"></div>
+          <div class="timeline-item__card">
+            <div class="timeline-item__header">
+              <div class="company-info">
+                <img src="assets/comp a2z.png" alt="A2Z IT Hub Logo" class="company-logo"></div>
+              <div>
+                <h3 class="timeline-item__role">Web Developer Intern</h3>
+                <p class="timeline-item__company">A2Z IT Hub Pvt Ltd, Ahilyanagar</p>
+              </div>
+              <span class="timeline-item__date">Dec 2023 – Mar 2024</span>
+            </div>
+            <ul class="timeline-item__highlights">
+              <li>Developed responsive and interactive web applications during internship projects.</li>
+              <li>Built frontend pages using HTML, CSS, and JavaScript technologies.</li>
+              <li>Improved website functionality and performance through modern development practices.</li>
+              <li>Worked on real-time academic and internship-based development tasks.</li>
+              <li>Gained hands-on experience in frontend development and responsive web design.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+<!-- Qualification -->
+<section class="education section" id="qualification">
+
+  <div class="section__header animate-on-scroll">
+    <h2 class="section__title">Qualification<span></span></h2>
+  </div>
+
+  <!-- Education -->
+  <div class="education-card animate-on-scroll">
+    <img src="assets/vacoea a.jpg" alt="College Logo" class="education-card__logo">
+
+    <div>
+      <h3 class="education-card__degree">
+        BE (Computer Engineering)
+      </h3>
+
+      <p class="education-card__school">
+        Vishwabharati Academy’s College of Engineering,Ahilyadnagar<br>
+        Graduated Nov 2025
+      </p>
+
+      <div class="education-card__details">
+
+        <span class="education-card__badge">
+          Scored an aggregate of 6.35 CGPA till now.
+        </span>
+
+        <span class="education-card__badge">
+          Completed graduation in Computer Engineering with focus on IT fundamentals, Business Intelligence, and Data Analytics.
+        </span>
+
+      </div>
+    </div>
+  </div>
+  <!-- 12th -->
+  <div class="education-card animate-on-scroll">
+    <img src="assets/college.png" alt="College Logo" class="education-card__logo">
+
+    <div>
+      <h3 class="education-card__degree">
+        12th Higher Secondary (Science)
+      </h3>
+
+      <p class="education-card__school">
+        Chand Sultana Junior College, Ahilyanagar<br>
+        Completed - Nov 2021
+      </p>
+
+      <div class="education-card__details">
+
+        <span class="education-card__badge">
+          Achieved 86.83% in HSC Examination (Science)
+        </span>
+        <span class="education-card__badge">
+          Studied Physics, Chemistry, Mathematics, Biology, English, and Information Technology.</span>
+        <span class="education-card__badge">
+          Demonstrated strong performance in practical and laboratory-based subjects.</span>
+          <span class="education-card__badge">
+            Developed analytical & problem solving skills through academic and practical coursework.</span>
+      </div>
+    </div>
+  </div>
+  <!-- 10th -->
+  <div class="education-card animate-on-scroll">
+    <img src="assets/school.png" alt="College Logo" class="education-card__logo">
+
+    <div>
+      <h3 class="education-card__degree">
+        10th Secondary School (SSC)
+      </h3>
+
+      <p class="education-card__school">
+        Iqra Campus, P.A. Inamdar School, Ahilyanagar<br>
+        Completed - Mar 2019
+      </p>
+
+      <div class="education-card__details">
+
+        <span class="education-card__badge">
+          Achieved 71.60% in SSC Examination.
+        </span>
+        <span class="education-card__badge">Subjects studied: Science, Maths, English, Urdu,Marathi,Hindi.</span><span class="education-card__badge">Came runners up in inter-school Ball Badminton</span>
+      </div>
+    </div>
+</section>
+
+  <!-- ===== CERTIFICATIONS / TECH STACK ===== -->
+<section class="certifications section section--alt" id="certifications">
+  <div class="container">
+
+    <div class="section__header animate-on-scroll">
+      <h2 class="section__title">Certifications & <span>Tech Stack</span></h2>
+    </div>
+
+    <div class="certs__grid">
+
+      <div class="cert-card animate-on-scroll">
+        <div class="cert-card__icon">🏅</div>
+        <h3 class="cert-card__name">AccioJob Data Analytics Professional Certificate</h3>
+        <p class="cert-card__issuer">AccioJob</p>
+        <p class="cert-card__year">2025</p>
+          <a href="https://drive.google.com/file/d/10ni9eyBau_K5vZ3Rp-bD6XvjdE7QI1yN/view" target="_blank" class="cert-btn">
+    View Certificate
+  </a>
+      </div>
+
+      <div class="cert-card animate-on-scroll delay-1">
+        <div class="cert-card__icon">🤖</div>
+        <h3 class="cert-card__name">Data Analytics with Skills.AI: Create Data Visualizations</h3>
+        <p class="cert-card__issuer">Coursera</p>
+        <p class="cert-card__year">2025</p>
+        <a href="https://coursera.org/share/87011bc7376145e9bf17f642459ddfe3" target="_blank" class="cert-btn">
+    View Certificate
+  </a>
+      </div>
+
+      <div class="cert-card animate-on-scroll delay-2">
+        <div class="cert-card__icon">📈</div>
+        <h3 class="cert-card__name">Data Visualization for Data Analysts</h3>
+        <p class="cert-card__issuer">National Association of State Boards of Accountancy</p>
+        <p class="cert-card__year">2025</p>
+        <a href="https://drive.google.com/file/d/1db4t6ZDk5VSEd5DlNzjRbnKOBGggvqnP/view" target="_blank" class="cert-btn">
+    View Certificate
+  </a>
+      </div>
+
+      <div class="cert-card animate-on-scroll">
+        <div class="cert-card__icon">🗃️</div>
+        <h3 class="cert-card__name">SQL</h3>
+        <p class="cert-card__issuer">Newton School</p>
+        <p class="cert-card__year">2025</p>
+        <a href="https://drive.google.com/file/d/1ptsbtS7OA2O5w56cQ0EwP2D6q1h-_M76/view" target="_blank" class="cert-btn">
+    View Certificate
+  </a>
+      </div>
+
+      <div class="cert-card animate-on-scroll">
+        <div class="cert-card__icon">📈</div>
+        <h3 class="cert-card__name">Data Analysis with Python </h3>
+        <p class="cert-card__issuer">IBM</p>
+        <p class="cert-card__year">2025</p>
+        <a href="https://www.coursera.org/account/accomplishments/verify/47LS84OIEX9Y?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank" class="cert-btn">
+    View Certificate
+  </a>
+      </div>
+
+      <div class="cert-card animate-on-scroll">
+        <div class="cert-card__icon">📊</div>
+        <h3 class="cert-card__name">Data Analytics</h3>
+        <p class="cert-card__issuer">Cisco Network Academy</p>
+        <p class="cert-card__year">In Progress</p>
+      </div>
+    </div>
+  </div>
+</section>
+      
+
+      <h3 class="techstack__title animate-on-scroll">Tools & Technologies</h3>
+      <div class="techstack__grid animate-on-scroll">
+        <div class="tech-pill"><span class="tech-pill__icon">📗</span> Excel</div>
+        <div class="tech-pill"><span class="tech-pill__icon">🗃️</span> SQL</div>
+        <div class="tech-pill"><span class="tech-pill__icon">📑</span> Power BI</div>
+        <div class="tech-pill"><span class="tech-pill__icon">📈</span> Vlookup</div>
+        <div class="tech-pill"><span class="tech-pill__icon">📊</span> Hlookup</div>
+        <div class="tech-pill"><span class="tech-pill__icon">🔎</span> Xlooup</div>
+        <div class="tech-pill"><span class="tech-pill__icon">📋</span> Pivot Table</div>
+        <div class="tech-pill"><span class="tech-pill__icon">🛠️</span> Data Cleaning</div>
+        <div class="tech-pill"><span class="tech-pill__icon">🗠</span> KPI Reporting & Analysis</div>
+        <div class="tech-pill"><span class="tech-pill__icon">☁️</span> Dashboard Development</div>
+        <div class="tech-pill"><span class="tech-pill__icon">🔧</span> Reporting using Excel</div>
+        <div class="tech-pill"><span class="tech-pill__icon">📌</span>  MIS Reporting</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / CTA ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="animate-on-scroll">
+        <h2 class="contact__heading">Ready To Get Started?</h2>
+        <p class="contact__subtext">You know my work. Let's talk about yours.</p>
+
+        <div class="contact__details">
+          <div class="contact__detail-item">
+            <div class="contact__detail-icon">📧</div>
+            <a href="mailto:msaud413@gmail.com">msaud413@gmail.com</a>
+          </div>
+          <div class="contact__detail-item">
+            <div class="contact__detail-icon">📞</div>
+            <a href="tel:+919307313723">(+91) 9307313723</a>
+          </div>
+          <div class="contact__detail-item">
+            <div class="contact__detail-icon">💼</div>
+            <a href="https://www.linkedin.com/in/mohammad-saud-momin-08635621a/" target="_blank" rel="noopener">Mohammad Saud Momin</a>
+          </div>
+          <div class="contact__detail-item">
+            <div class="contact__detail-icon">🐙</div>
+            <a href="https://github.com/saudmomin786" target="_blank" rel="noopener">github.com/saudmomin786</a>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact__form animate-on-scroll delay-1" id="contactForm" action="https://formspree.io/f/xykvqndz" method="POST">
+        <div class="form__group">
+          <label for="contactName" class="form__label">Name</label>
+          <input type="text" id="contactName" name="name" class="form__input" placeholder="Your Name" required>
+        </div>
+        <div class="form__group">
+          <label for="contactEmail" class="form__label">Your Email</label>
+          <input type="email" id="contactEmail" name="email" class="form__input" placeholder="mail@example.com" required>
+        </div>
+        <div class="form__group">
+          <label for="contactSubject" class="form__label">Subject</label>
+          <input type="text" id="contactSubject" name="subject" class="form__input" placeholder="Let's work together">
+        </div>
+        <div class="form__group">
+          <label for="contactMessage" class="form__label">Message</label>
+          <textarea id="contactMessage" name="message" class="form__textarea" placeholder="Tell me how I can help you..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form__submit">🚀 Send Message </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer__socials">
+        <a href="https://linkedin.com/in/mohammadsaudmomin" class="footer__social-link" target="_blank" rel="noopener" aria-label="LinkedIn">💼</a>
+        <a href="https://github.com/saudmomin786" class="footer__social-link" target="_blank" rel="noopener" aria-label="GitHub">🐙</a>
+        <a href="mailto:msaud413@gmail.com" class="footer__social-link" aria-label="Email">📧</a>
+      </div>
+      <p class="footer__copyright">© 2026 Mohammed Saud Momin. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
